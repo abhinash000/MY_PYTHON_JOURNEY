@@ -46,24 +46,22 @@ print(A, B, C, D, E, F, G, h, I, j)
 
 #for showing their data types
 # \t for giving the space between variables  and their  values 
-print("Variable\tValue\tData Type")
+print("A\t", A, "\t", type(A))  # Output: A   10      <class 'int'>
 
-print("A\t", A, "\t", type(A))
+print("B\t", B, "\t", type(B))  # Output: B   3.14    <class 'float'>
 
-print("B\t", B, "\t", type(B))
+print("C\t", C, "\t", type(C))  # Output: C   Hello, world!   <class 'str'>
 
-print("C\t", C, "\t", type(C))
+print("D\t", D, "\t", type(D))  # Output: D   True    <class 'bool'>
 
-print("D\t", D, "\t", type(D))
+print("E\t", E, "\t", type(E))  # Output: E   None    <class 'NoneType'>
 
-print("E\t", E, "\t", type(E))
+print("F\t", F, "\t", type(F))  # Output: F   [1, 2, 3]   <class 'list'>
 
-print("F\t", F, "\t", type(F))
+print("G\t", G, "\t", type(G))  # Output: G   (4, 5, 6)   <class 'tuple'>
 
-print("G\t", G, "\t", type(G))
+print("h\t", h, "\t", type(h))  # Output: h   {'name': 'Alice', 'age': 30}   <class 'dict'>
 
-print("h\t", h, "\t", type(h))
+print("I\t", I, "\t", type(I))  # Output: I   {7, 8, 9}   <class 'set'>
 
-print("I\t", I, "\t", type(I))
-
-print("j\t", j, "\t", type(j))
+print("j\t", j, "\t", type(j))  # Output: j   {'a': 1, 'b': 2}   <class 'dict'>
